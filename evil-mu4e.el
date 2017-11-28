@@ -83,7 +83,6 @@
     (,evil-mu4e-state mu4e-headers-mode-map "k"            previous-line)
     (,evil-mu4e-state mu4e-headers-mode-map "gr"           mu4e-headers-rerun-search)
     (,evil-mu4e-state mu4e-headers-mode-map "b"            mu4e-headers-search-bookmark)
-    (,evil-mu4e-state mu4e-headers-mode-map "gr"           mu4e-headers-rerun-search)
     (,evil-mu4e-state mu4e-headers-mode-map ";"            mu4e-context-switch)
     (,evil-mu4e-state mu4e-headers-mode-map ,(kbd "RET")   mu4e-headers-view-message)
     (,evil-mu4e-state mu4e-headers-mode-map "/"            mu4e-headers-search-narrow)
