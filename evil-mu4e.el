@@ -103,6 +103,8 @@
     (,evil-mu4e-state mu4e-view-mode-map "o"               mu4e-view-open-attachment)
     (,evil-mu4e-state mu4e-view-mode-map "A"               mu4e-view-attachment-action)
     (,evil-mu4e-state mu4e-view-mode-map "go"              mu4e-view-go-to-url)
+    (,evil-mu4e-state mu4e-view-mode-map "g+"              mu4e-view-mark-for-flag)
+    (,evil-mu4e-state mu4e-view-mode-map "g-"              mu4e-view-mark-for-unflag)
     (,evil-mu4e-state mu4e-view-mode-map "J"               mu4e~headers-jump-to-maildir)
     (,evil-mu4e-state mu4e-view-mode-map "\C-j"            mu4e-view-headers-next)
     (,evil-mu4e-state mu4e-view-mode-map "\C-k"            mu4e-view-headers-prev)
